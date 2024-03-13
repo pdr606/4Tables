@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4Tables", "4Tables\4Tables.csproj", "{7C02DCAC-71C1-4523-8566-293A437F719E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C02DCAC-71C1-4523-8566-293A437F719E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C02DCAC-71C1-4523-8566-293A437F719E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C02DCAC-71C1-4523-8566-293A437F719E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C02DCAC-71C1-4523-8566-293A437F719E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6111FF25-36E5-4458-9688-EFEDB38632ED}
+	EndGlobalSection
+EndGlobal

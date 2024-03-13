@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\migrations\\20240313191820_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\migrations\\20240313191820_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240313191820_v1.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\20240313191820_v1.cs",
+              "RelativeDocumentMoniker": "4Tables\\Migrations\\20240313191820_v1.cs",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\20240313191820_v1.cs",
+              "RelativeToolTip": "4Tables\\Migrations\\20240313191820_v1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T19:18:59.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Program.cs",
+              "RelativeDocumentMoniker": "4Tables\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Program.cs",
+              "RelativeToolTip": "4Tables\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T17:59:44.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\appsettings.json",
+              "RelativeDocumentMoniker": "4Tables\\appsettings.json",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\appsettings.json",
+              "RelativeToolTip": "4Tables\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-13T17:57:20.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\docker-compose.yml",
+              "RelativeDocumentMoniker": "4Tables\\docker-compose.yml",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\docker-compose.yml",
+              "RelativeToolTip": "4Tables\\docker-compose.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-03-13T17:55:20.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T19:18:28.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Dockerfile",
+              "RelativeDocumentMoniker": "4Tables\\Dockerfile",
+              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Dockerfile",
+              "RelativeToolTip": "4Tables\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-03-13T17:59:43.018Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

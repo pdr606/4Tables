@@ -5,27 +5,24 @@ services:
     build: .
     ports:
       - "8080:8080"
-    networks:
-        - teste 
     depends_on:
       - sql-database
     environment:
-      - ConnectionStrings__DefaultConnection=Server=sql-database;Database=4Tables;User=sa;Password=59I^3w#HF#tI;TrustServerCertificate=true
+      - ConnectionStrings__DefaultConnection=Port=5432; Database=4Tables;User ID=sa;Password=develop;TrustServerCertificate=true
 
   sql-database:
     container_name: sql-database
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    pull_policy: if_not_present
+    image: postgres:latest
     networks:
         - teste
-    restart: always
     environment:
-      ACCEPT_EULA: 'Y'
-      SA_PASSWORD: '59I^3w#HF#tI'
+      - POSTGRES_DB=4Tables
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=develop
     ports:
-      - '1433:1433'
+      - '5432:5432'
     expose:
-      - '1433'
+      - '5432'
 
 volumes:
   sqlserver-data:
@@ -36,4 +33,4 @@ networks:
     driver: bridge
 
 
-
+    

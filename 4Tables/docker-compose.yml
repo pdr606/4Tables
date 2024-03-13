@@ -1,20 +1,9 @@
 version: "3.8"
 
 services:
-  app:
-    build: .
-    ports:
-      - "8080:8080"
-    depends_on:
-      - sql-database
-    environment:
-      - ConnectionStrings__DefaultConnection=Port=5432; Database=4Tables;User ID=sa;Password=develop;TrustServerCertificate=true
-
   sql-database:
     container_name: sql-database
     image: postgres:latest
-    networks:
-        - teste
     environment:
       - POSTGRES_DB=4Tables
       - POSTGRES_USER=sa
@@ -22,15 +11,20 @@ services:
     ports:
       - '5432:5432'
     expose:
-      - '5432'
-
-volumes:
-  sqlserver-data:
-     driver: local
-
-networks:
-  teste:
-    driver: bridge
+      - 5432
+    volumes:
+      - ./data:/var/lib/postgresql/data
+  
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - sql-database
+    expose:
+    - 8080
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=sql-database;Port=5432;Database=4Tables;Username=sa;Password=develop"
 
 
     

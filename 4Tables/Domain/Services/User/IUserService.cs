@@ -10,6 +10,8 @@ namespace _4Tables.Domain.Services.User
         public Task<BasicResult> Add(CreateUserDto dto);
         public Task<bool> ExistUser(string email);
         public Task<UserEntity> FindEntityByEmail(string email);
+        public Task<BasicResultT<IEnumerable<UserListDto>>> FindAll();
         public bool ValidateCredentials(string loginPassword, string userPassword, string loginEmail, string userEmail);
+        
     }
 }

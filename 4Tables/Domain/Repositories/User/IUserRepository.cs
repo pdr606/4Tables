@@ -8,5 +8,6 @@ namespace _4Tables.Domain.Repositories.User
 
         Task<bool> ExistUserByEmail(string email);
         Task<UserEntity> FindUserEntityByEmail(string email);
+        Task<IEnumerable<UserEntity>> FindAll();
     }
 }

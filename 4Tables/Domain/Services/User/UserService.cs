@@ -5,6 +5,7 @@ using _4Tables.Domain.Base.Common;
 using _4Tables.Domain.Entities.User;
 using _4Tables.Domain.Repositories.User;
 using BCrypt.Net;
+using System.Text.RegularExpressions;
 
 namespace _4Tables.Domain.Services.User
 {
@@ -21,6 +22,13 @@ namespace _4Tables.Domain.Services.User
         public async Task<BasicResult> Add(CreateUserDto dto)
         {
             BasicResult result = new BasicResult();
+
+            if (!isValidEmail(dto.email)){
+                result.ISSUCESS(false);
+                result.ERROR(new Error(System.Net.HttpStatusCode.BadRequest, "E-mail inválido!"));
+                return result;
+            }
+
             if (await ((IUserService)this).ExistUser(dto.email))
             {
                 result.ISSUCESS(false);
@@ -41,6 +49,17 @@ namespace _4Tables.Domain.Services.User
             return await _userRepository.ExistUserByEmail(email);
         }
 
+        public async Task<BasicResultT<IEnumerable<UserListDto>>> FindAll()
+        {
+            BasicResultT<IEnumerable<UserListDto>> result = new();
+
+            var users = await _userRepository.FindAll();
+
+            result.BindingData(UserAdapter.toDtoList(users));
+            result.ISSUCESS(true);
+            return result;
+        }
+
         public async Task<UserEntity> FindEntityByEmail(string email)
         {
             return await _userRepository.FindUserEntityByEmail(email);
@@ -58,6 +77,14 @@ namespace _4Tables.Domain.Services.User
             var passwordHash = BCrypt.Net.BCrypt.HashPassword(password, salt);
 
             return passwordHash;
+        }
+
+        private bool isValidEmail(string email)
+        {
+            string emailPattern = @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$";
+
+            Regex regex = new Regex(emailPattern);
+            return regex.IsMatch(email);
         }
     }
 }

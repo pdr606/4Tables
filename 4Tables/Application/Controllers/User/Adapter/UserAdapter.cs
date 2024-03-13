@@ -15,5 +15,22 @@ namespace _4Tables.Application.Controllers.User.Adapter
                                   dto.role
                                   );
         } 
+
+        internal static IEnumerable<UserListDto> toDtoList(IEnumerable<UserEntity> users)
+        {
+            List<UserListDto> list = new();
+
+            foreach (UserEntity user in users)
+            {
+                list.Add(new UserListDto(user.Id,
+                                        user.Email,
+                                        user.FirstName,
+                                        user.LastName,
+                                        user.Available
+                    ));
+            }
+
+            return list;
+        }
     }
 }

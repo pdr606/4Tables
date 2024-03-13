@@ -25,5 +25,10 @@ namespace _4Tables.Domain.Repositories.User
         {
             return await _db.Set<UserEntity>().FirstOrDefaultAsync(x => x.Email == email);
         }
+
+        public async Task<IEnumerable<UserEntity>> FindAll()
+        {
+            return await _db.Set<UserEntity>().AsNoTracking().ToListAsync();
+        }
     }
 }

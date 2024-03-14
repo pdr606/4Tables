@@ -13,5 +13,6 @@ namespace _4Tables.Domain.Services.Product
         public Task<BasicResultT<ProductDto>> FindById(long id);
         public Task<BasicResult> Delete(long id);
         public Task<BasicResult> ActiveDesactive(long id);
+        public Task<List<ProductEntity>> FindAllByListId(List<long> ids);
     }
 }

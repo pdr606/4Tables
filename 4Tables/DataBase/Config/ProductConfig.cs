@@ -1,4 +1,5 @@
-﻿using _4Tables.Domain.Entities.Product;
+﻿using _4Tables.Domain.Entities.ClienteOder;
+using _4Tables.Domain.Entities.Product;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -22,9 +23,21 @@ namespace _4Tables.DataBase.Config
             builder.Property(x => x.Description)
                     .IsRequired(true);
 
-            builder.HasMany(x => x.ClientOrders)
-                    .WithOne(x => x.Product)
-                    .HasForeignKey(x => x.ProductId);
+            builder.HasMany(x => x.ClientOrders).WithMany(x => x.Products)
+                .UsingEntity<Dictionary<string, object>>(
+                    "ProductClientOrder",
+                    x => x.HasOne<ClienteOrderEntity>()
+                            .WithMany()
+                            .HasForeignKey("ClientOrderId")
+                            .HasConstraintName("FK_ProductClientOrder_ClientOrdertId")
+                            .OnDelete(DeleteBehavior.Cascade)
+                            ,
+                    x => x.HasOne<ProductEntity>()
+                            .WithMany()
+                            .HasForeignKey("ProductId")
+                            .HasConstraintName("FK_ProductClientOrder_ProductId")
+                            .OnDelete(DeleteBehavior.Cascade)
+                );
         }
     }
 }

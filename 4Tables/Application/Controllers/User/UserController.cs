@@ -50,5 +50,12 @@ namespace _4Tables.Application.Controllers.User
 
             return Ok(token);
         }
+
+        [HttpGet]
+        public async Task<ActionResult<BasicResultT<IEnumerable<UserListDto>>>> FindAll()
+        {
+            var result = await _userService.FindAll();
+            return Ok(result);
+        }
     }
 }

@@ -9,18 +9,16 @@ namespace _4Tables.Domain.Entities.ClienteOder
     {
         public long Id { get; private set; }
         public string? Observation { get; set; } = string.Empty;
-        public ProductEntity Product{ get; set; }
-        public long ProductId { get; set; }
+        public ICollection<ProductEntity> Products{ get; set; }
         public OrderEntity Order{ get; set; }
-        public long OrderId { get; set; }
+        public long? OrderId { get; set; }
         public StatusEnum Status{ get; private set; }
 
         public ClienteOrderEntity() { }
 
-        public ClienteOrderEntity(string? observation, ProductEntity product)
+        public ClienteOrderEntity(string? observation)
         {
             Observation = observation;
-            Product = product;
         }
 
         public ClienteOrderEntity WITHSTATUS(StatusEnum status)
@@ -35,16 +33,20 @@ namespace _4Tables.Domain.Entities.ClienteOder
             return this;
         }
 
-        public ClienteOrderEntity WITHPRODUCTID(long id)
-        {
-            ProductId = id;
-            return this;
-        }
-
-        public ClienteOrderEntity WITHORDERID(long id)
+        public ClienteOrderEntity WITHORDERID(long? id)
         {
             OrderId = id;
             return this;
+        }
+
+        public void BindingProducts(List<ProductEntity> products)
+        {
+            if(Products == null) Products = new List<ProductEntity>();
+
+            foreach (ProductEntity product in products)
+            {
+                Products.Add(product);
+            }
         }
     }
 }

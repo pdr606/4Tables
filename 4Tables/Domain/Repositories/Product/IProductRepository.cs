@@ -13,5 +13,6 @@ namespace _4Tables.Domain.Repositories.Product
         Task<ProductEntity> FindById(long id);
         Task<List<ProductEntity>> FindAllDisables();
         Task<bool> ActiveDesactive(long id);
+        Task<List<ProductEntity>> FindAllWithId(List<long> ids);
     }
 }

@@ -28,7 +28,7 @@ namespace _4Tables.Domain.Repositories.User
 
         public async Task<IEnumerable<UserEntity>> FindAll()
         {
-            return await _db.Set<UserEntity>().AsNoTracking().ToListAsync();
+            return await _db.Set<UserEntity>().Where(x => x.Role != Entities.User.Enum.Role.ADM).AsNoTracking().ToListAsync();
         }
     }
 }

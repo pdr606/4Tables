@@ -1,30 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\",
+  "WorkspaceRootPath": "C:\\Users\\tutor\\4Tables\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\services\\clientorder\\clienteorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\services\\clientorder\\clienteorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\services\\product\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\services\\clientorder\\iclienteorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\services\\clientorder\\iclienteorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\services\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\migrations\\20240313191820_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\migrations\\20240313191820_v1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\repositories\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\repositories\\product\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\pedro.guarnieri\\source\\repos\\4tables\\4tables\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\repositories\\product\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\entities\\clienteoder\\clienteorderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\entities\\clienteoder\\clienteorderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\entities\\order\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\entities\\order\\orderentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\productconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\ingredientconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\ingredientconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\orderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\orderconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\userconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\tableconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\tableconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\database\\config\\restaurantsettingsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\database\\config\\restaurantsettingsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\application\\controllers\\order\\dto\\clientorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\application\\controllers\\order\\dto\\clientorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\application\\controllers\\order\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\application\\controllers\\order\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\application\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\application\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\repositories\\clientorder\\iclienteorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\repositories\\clientorder\\iclienteorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|c:\\users\\tutor\\4tables\\4tables\\domain\\repositories\\clientorder\\clientorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C02DCAC-71C1-4523-8566-293A437F719E}|4Tables\\4Tables.csproj|solutionrelative:4tables\\domain\\repositories\\clientorder\\clientorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,85 +85,260 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 245,
           "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20240313191820_v1.cs",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\20240313191820_v1.cs",
-              "RelativeDocumentMoniker": "4Tables\\Migrations\\20240313191820_v1.cs",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\20240313191820_v1.cs",
-              "RelativeToolTip": "4Tables\\Migrations\\20240313191820_v1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABHAAAA",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\Product\\ProductService.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Services\\Product\\ProductService.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\Product\\ProductService.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Services\\Product\\ProductService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAIwHYAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T19:18:59.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Program.cs",
-              "RelativeDocumentMoniker": "4Tables\\Program.cs",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Program.cs",
-              "RelativeToolTip": "4Tables\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T17:59:44.225Z",
+              "WhenOpened": "2024-03-13T23:25:28.788Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\appsettings.json",
-              "RelativeDocumentMoniker": "4Tables\\appsettings.json",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\appsettings.json",
-              "RelativeToolTip": "4Tables\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-13T17:57:20.071Z",
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\Product\\IProductService.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Services\\Product\\IProductService.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\Product\\IProductService.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Services\\Product\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:24:57.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IClienteOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\ClientOrder\\IClienteOrderService.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Services\\ClientOrder\\IClienteOrderService.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\ClientOrder\\IClienteOrderService.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Services\\ClientOrder\\IClienteOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:57:29.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\docker-compose.yml",
-              "RelativeDocumentMoniker": "4Tables\\docker-compose.yml",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\docker-compose.yml",
-              "RelativeToolTip": "4Tables\\docker-compose.yml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-03-13T17:55:20.967Z",
+              "Title": "ClienteOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\ClientOrder\\ClienteOrderService.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Services\\ClientOrder\\ClienteOrderService.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Services\\ClientOrder\\ClienteOrderService.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Services\\ClientOrder\\ClienteOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:57:32.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\Product\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Repositories\\Product\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\Product\\ProductRepository.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Repositories\\Product\\ProductRepository.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowEcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:23:24.703Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "RelativeToolTip": "4Tables\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\Product\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Repositories\\Product\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\Product\\IProductRepository.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Repositories\\Product\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-13T19:18:28.588Z",
+              "WhenOpened": "2024-03-13T23:22:45.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Dockerfile",
-              "RelativeDocumentMoniker": "4Tables\\Dockerfile",
-              "ToolTip": "C:\\Users\\pedro.guarnieri\\Source\\Repos\\4Tables\\4Tables\\Dockerfile",
-              "RelativeToolTip": "4Tables\\Dockerfile",
+              "DocumentIndex": 14,
+              "Title": "ClientOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\Order\\Dto\\ClientOrderDto.cs",
+              "RelativeDocumentMoniker": "4Tables\\Application\\Controllers\\Order\\Dto\\ClientOrderDto.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\Order\\Dto\\ClientOrderDto.cs",
+              "RelativeToolTip": "4Tables\\Application\\Controllers\\Order\\Dto\\ClientOrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:59:24.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\Order\\OrderController.cs",
+              "RelativeDocumentMoniker": "4Tables\\Application\\Controllers\\Order\\OrderController.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\Order\\OrderController.cs",
+              "RelativeToolTip": "4Tables\\Application\\Controllers\\Order\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:58:56.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "4Tables\\Application\\Controllers\\User\\UserController.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Application\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "4Tables\\Application\\Controllers\\User\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:58:59.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IClienteOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\ClientOrder\\IClienteOrderRepository.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Repositories\\ClientOrder\\IClienteOrderRepository.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\ClientOrder\\IClienteOrderRepository.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Repositories\\ClientOrder\\IClienteOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-03-13T17:59:43.018Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:57:24.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClientOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\ClientOrder\\ClientOrderRepository.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Repositories\\ClientOrder\\ClientOrderRepository.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Repositories\\ClientOrder\\ClientOrderRepository.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Repositories\\ClientOrder\\ClientOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:57:23.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 155,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\ProductConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\ProductConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\ProductConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\ProductConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:08:02.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClienteOrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Entities\\ClienteOder\\ClienteOrderEntity.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Entities\\ClienteOder\\ClienteOrderEntity.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Entities\\ClienteOder\\ClienteOrderEntity.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Entities\\ClienteOder\\ClienteOrderEntity.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAApwA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T22:57:59.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\OrderConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\OrderConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\OrderConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\OrderConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:10:06.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IngredientConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\IngredientConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\IngredientConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\IngredientConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\IngredientConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:10:06.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderEntity.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Entities\\Order\\OrderEntity.cs",
+              "RelativeDocumentMoniker": "4Tables\\Domain\\Entities\\Order\\OrderEntity.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\Domain\\Entities\\Order\\OrderEntity.cs",
+              "RelativeToolTip": "4Tables\\Domain\\Entities\\Order\\OrderEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:06:47.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\UserConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\UserConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\UserConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\UserConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:08:17.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TableConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\TableConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\TableConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\TableConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\TableConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:08:16.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RestaurantSettingsConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\RestaurantSettingsConfig.cs",
+              "RelativeDocumentMoniker": "4Tables\\DataBase\\Config\\RestaurantSettingsConfig.cs",
+              "ToolTip": "C:\\Users\\tutor\\4Tables\\4Tables\\DataBase\\Config\\RestaurantSettingsConfig.cs",
+              "RelativeToolTip": "4Tables\\DataBase\\Config\\RestaurantSettingsConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T23:08:15.565Z",
               "EditorCaption": ""
             }
           ]

@@ -58,6 +58,20 @@ namespace _4Tables.Domain.Repositories.Product
                              .ToListAsync();
         }
 
+        public async Task<List<ProductEntity>> FindAllWithId(List<long> ids)
+        {
+            var entities = new List<ProductEntity>();
+
+            foreach (var id in ids)
+            {
+                var entity = await FindById(id);
+                if(entity != null)
+                    entities.Add(entity);
+            }
+
+            return entities;
+        }
+
         public async Task<ProductEntity> FindById(long id)
         {
             return await _db.Set<ProductEntity>()

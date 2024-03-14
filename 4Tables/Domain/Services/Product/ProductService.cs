@@ -1,6 +1,7 @@
 ﻿using _4Tables.Application.Controllers.Product.Adapter;
 using _4Tables.Application.Controllers.Product.Dto;
 using _4Tables.Domain.Base.Common;
+using _4Tables.Domain.Entities.Product;
 using _4Tables.Domain.Repositories.Product;
 using _4Tables.Domain.Services.Ingredient;
 
@@ -53,6 +54,7 @@ namespace _4Tables.Domain.Services.Product
             return result;
 
         }
+
         public async Task<BasicResultT<List<ProductDto>>> FindAllDisables()
         {
             var entityList = await _productRepository.FindAllDisables();
@@ -112,6 +114,11 @@ namespace _4Tables.Domain.Services.Product
 
             return result;
 
+        }
+
+        public async Task<List<ProductEntity>> FindAllByListId(List<long> ids)
+        {
+            return await _productRepository.FindAllWithId(ids);
         }
     }
 }

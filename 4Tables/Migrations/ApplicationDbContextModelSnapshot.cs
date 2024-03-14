@@ -22,6 +22,21 @@ namespace _4Tables.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("ClienteOrderEntityProductEntity", b =>
+                {
+                    b.Property<long>("ClientOrdersId")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("ProductsId")
+                        .HasColumnType("bigint");
+
+                    b.HasKey("ClientOrdersId", "ProductsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("ClienteOrderEntityProductEntity");
+                });
+
             modelBuilder.Entity("IngredientEntityProductEntity", b =>
                 {
                     b.Property<long>("IngredientsId")
@@ -57,9 +72,6 @@ namespace _4Tables.Migrations
                     b.Property<long>("OrderId")
                         .HasColumnType("bigint");
 
-                    b.Property<long>("ProductId")
-                        .HasColumnType("bigint");
-
                     b.Property<int>("Status")
                         .HasColumnType("integer");
 
@@ -69,8 +81,6 @@ namespace _4Tables.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("OrderId");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("ClienteOrderEntity");
                 });
@@ -270,6 +280,21 @@ namespace _4Tables.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("ClienteOrderEntityProductEntity", b =>
+                {
+                    b.HasOne("_4Tables.Domain.Entities.ClienteOder.ClienteOrderEntity", null)
+                        .WithMany()
+                        .HasForeignKey("ClientOrdersId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("_4Tables.Domain.Entities.Product.ProductEntity", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("IngredientEntityProductEntity", b =>
                 {
                     b.HasOne("_4Tables.Domain.Entities.Ingredient.IngredientEntity", null)
@@ -293,15 +318,7 @@ namespace _4Tables.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("_4Tables.Domain.Entities.Product.ProductEntity", "Product")
-                        .WithMany("ClientOrders")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Order");
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("_4Tables.Domain.Entities.Table.TableEntity", b =>
@@ -321,11 +338,6 @@ namespace _4Tables.Migrations
 
                     b.Navigation("Table")
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("_4Tables.Domain.Entities.Product.ProductEntity", b =>
-                {
-                    b.Navigation("ClientOrders");
                 });
 #pragma warning restore 612, 618
         }

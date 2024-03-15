@@ -8,5 +8,6 @@ namespace _4Tables.Domain.Services.Restaurant
     {
 
         Task Add(int tables);
+        Task<int> TotalTables();
     }
 }

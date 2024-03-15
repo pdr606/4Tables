@@ -1,4 +1,5 @@
 ﻿using _4Tables.Application.Controllers.Order.Dto;
+using _4Tables.Domain.Base.Common;
 using _4Tables.Domain.Base.Services;
 using _4Tables.Domain.Entities.ClienteOder;
 using System.Threading.Tasks;

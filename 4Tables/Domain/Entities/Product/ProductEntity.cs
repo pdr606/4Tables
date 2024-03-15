@@ -3,6 +3,7 @@ using _4Tables.Domain.Base.Enum;
 using _4Tables.Domain.Entities.ClienteOder;
 using _4Tables.Domain.Entities.Ingredient;
 using _4Tables.Domain.Entities.Order;
+using System.Text.Json.Serialization;
 
 namespace _4Tables.Domain.Entities.Product
 {
@@ -15,6 +16,7 @@ namespace _4Tables.Domain.Entities.Product
         public string Description { get; private set; } = string.Empty;
         public int Requests { get; private set; }
         public CategoryEnum Category { get; private set; }
+        [JsonIgnore]
         public ICollection<ClienteOrderEntity> ClientOrders{ get; set; } = new List<ClienteOrderEntity>();
         public ICollection<IngredientEntity>? Ingredients { get; set; } = new List<IngredientEntity>();
         public ProductEntity() { }

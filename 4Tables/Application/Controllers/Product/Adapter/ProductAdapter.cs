@@ -32,7 +32,19 @@ namespace _4Tables.Application.Controllers.Product.Adapter
                                   IngredientAdapter.toDtoList(entity.Ingredients));
         }
 
+
         internal static List<ProductDto> ToDtoList(List<ProductEntity> entities)
+        {
+            List<ProductDto> res = new List<ProductDto>();
+
+            foreach (var entity in entities)
+            {
+                res.Add(ToDto(entity));
+            }
+            return res;
+        }
+
+        internal static List<ProductDto> ToDtoList(ICollection<ProductEntity> entities)
         {
             List<ProductDto> res = new List<ProductDto>();
 

@@ -69,10 +69,13 @@ namespace _4Tables.Migrations
                     b.Property<string>("Observation")
                         .HasColumnType("text");
 
-                    b.Property<long>("OrderId")
+                    b.Property<long?>("OrderId")
                         .HasColumnType("bigint");
 
                     b.Property<int>("Status")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("TableId")
                         .HasColumnType("integer");
 
                     b.Property<DateTime?>("Updated_At")
@@ -125,9 +128,17 @@ namespace _4Tables.Migrations
                     b.Property<DateTime>("Created_At")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("Observation")
-                        .IsRequired()
-                        .HasColumnType("text");
+                    b.Property<decimal?>("Discount")
+                        .HasColumnType("numeric");
+
+                    b.Property<decimal?>("PriceWithGarcomFee")
+                        .HasColumnType("numeric");
+
+                    b.Property<int>("TableId")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("Total")
+                        .HasColumnType("numeric");
 
                     b.Property<DateTime?>("Updated_At")
                         .HasColumnType("timestamp with time zone");
@@ -215,6 +226,9 @@ namespace _4Tables.Migrations
                     b.Property<bool>("Available")
                         .HasColumnType("boolean");
 
+                    b.Property<long>("ClienteOrderId")
+                        .HasColumnType("bigint");
+
                     b.Property<DateTime>("Created_At")
                         .HasColumnType("timestamp with time zone");
 
@@ -224,16 +238,13 @@ namespace _4Tables.Migrations
                     b.Property<long>("OrderId")
                         .HasColumnType("bigint");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("numeric");
-
-                    b.Property<decimal>("PriceWithGarcomFee")
-                        .HasColumnType("numeric");
-
                     b.Property<DateTime?>("Updated_At")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClienteOrderId")
+                        .IsUnique();
 
                     b.HasIndex("OrderId")
                         .IsUnique();
@@ -314,22 +325,34 @@ namespace _4Tables.Migrations
                 {
                     b.HasOne("_4Tables.Domain.Entities.Order.OrderEntity", "Order")
                         .WithMany("ClientProducts")
-                        .HasForeignKey("OrderId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("OrderId");
 
                     b.Navigation("Order");
                 });
 
             modelBuilder.Entity("_4Tables.Domain.Entities.Table.TableEntity", b =>
                 {
+                    b.HasOne("_4Tables.Domain.Entities.ClienteOder.ClienteOrderEntity", "ClienteOrder")
+                        .WithOne("Table")
+                        .HasForeignKey("_4Tables.Domain.Entities.Table.TableEntity", "ClienteOrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("_4Tables.Domain.Entities.Order.OrderEntity", "Order")
                         .WithOne("Table")
                         .HasForeignKey("_4Tables.Domain.Entities.Table.TableEntity", "OrderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("ClienteOrder");
+
                     b.Navigation("Order");
+                });
+
+            modelBuilder.Entity("_4Tables.Domain.Entities.ClienteOder.ClienteOrderEntity", b =>
+                {
+                    b.Navigation("Table")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("_4Tables.Domain.Entities.Order.OrderEntity", b =>

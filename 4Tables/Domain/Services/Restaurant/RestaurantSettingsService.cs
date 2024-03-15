@@ -28,5 +28,10 @@ namespace _4Tables.Domain.Services.Restaurant
             await _restaurantSettingsRepository.UpdateTotalTables(Totaltables);
 
         }
+
+        public async Task<int> TotalTables()
+        {
+            return await _restaurantSettingsRepository.ConsultTotalTables();
+        }
     }
 }

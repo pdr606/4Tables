@@ -13,10 +13,6 @@ namespace _4Tables.DataBase.Config
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Observation)
-                .HasMaxLength(200)
-                .IsRequired(false);
-
             builder.HasOne(x => x.Table)
                     .WithOne(x => x.Order)
                     .HasForeignKey<TableEntity>(x => x.OrderId)

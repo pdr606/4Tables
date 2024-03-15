@@ -76,6 +76,7 @@ namespace _4Tables.Domain.Repositories.Product
         {
             return await _db.Set<ProductEntity>()
                             .Where(x => x.Available)
+                            .Include(x => x.Ingredients)
                             .FirstOrDefaultAsync(x => x.Id == id);
         }
 

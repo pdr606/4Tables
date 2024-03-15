@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("4Tables")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c450dfa3c53fc41c74a0867889abc80eef6165e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39a20354d0092a8fdf5904e6d76414d39cd7cdcb")]
 [assembly: System.Reflection.AssemblyProductAttribute("4Tables")]
 [assembly: System.Reflection.AssemblyTitleAttribute("4Tables")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

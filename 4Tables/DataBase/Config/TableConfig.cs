@@ -10,12 +10,6 @@ namespace _4Tables.DataBase.Config
         {
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Price)
-                    .IsRequired();
-
-            builder.Property(x => x.PriceWithGarcomFee)
-                    .IsRequired();
-
             builder.Property(x => x.Number)
                     .IsRequired();
 

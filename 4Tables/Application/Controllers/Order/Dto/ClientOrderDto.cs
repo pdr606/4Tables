@@ -2,7 +2,8 @@
 {
     public record ClientOrderDto(string? observation,
                                  List<long> productsId,
-                                 long? OrderId
+                                 long OrderId,
+                                 int table
         )
     {
     }

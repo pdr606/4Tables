@@ -9,21 +9,19 @@ namespace _4Tables.Domain.Services.ClientOrder
     public class ClienteOrderService : IClienteOrderService
     {
 
-        private readonly IClienteOrderRepository _clienteOrderRepository;
         private readonly IProductService _productService;
 
-        public ClienteOrderService(IClienteOrderRepository clienteOrderRepository,
-                                   IProductService productService
-            )
+        public ClienteOrderService(IProductService productService)
         {
-            _clienteOrderRepository = clienteOrderRepository;
             _productService = productService;
         }
 
         public async Task<ClienteOrderEntity> Add(ClientOrderDto dto)
         {
-            var clientOrder = new ClienteOrderEntity(dto.observation ?? "")
-                                                    .WITHORDERID(dto.OrderId ?? null)
+
+            var clientOrder = new ClienteOrderEntity(dto.observation ?? "",
+                                                     dto.table)
+                                                    .WITHORDERID(dto.OrderId)
                                                     .WITHSTATUS(Base.Enum.StatusEnum.WAITING);
 
             var products = await _productService.FindAllByListId(dto.productsId);
